@@ -1,0 +1,13 @@
+body {
+  font-family: arial;
+}
+h1 {
+  color: darkgoldenrod;
+}
+h2 {
+  font-weight: 400;
+  color: darkcyan;
+}
+ol {
+  list-style-type: hebrew;
+}
