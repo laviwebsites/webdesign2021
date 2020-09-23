@@ -1,8 +1,10 @@
 body {
-  font-family: arial;
+  font-family: 'Heebo', sans-serif;
 }
 h1 {
   color: darkgoldenrod;
+  font-weight: 200;
+  font-size: 3em;
 }
 h2 {
   font-weight: 400;
@@ -10,4 +12,7 @@ h2 {
 }
 ol {
   list-style-type: hebrew;
+}
+img {
+  max-width: 100%;
 }
