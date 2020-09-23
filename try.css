@@ -2,17 +2,33 @@ body {
   font-family: 'Heebo', sans-serif;
 }
 h1 {
-  color: darkgoldenrod;
+  color: #A9846D;
   font-weight: 200;
   font-size: 3em;
 }
 h2 {
   font-weight: 400;
-  color: darkcyan;
+  color: #4A5364;
 }
 ol {
-  list-style-type: hebrew;
 }
 img {
   max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+ul {
+  list-style-type: circle
+}
+
+.alignleft {
+  float: left;
+  max-width: 40%;
+}
+
+.clear {
+  clear: both;
 }
