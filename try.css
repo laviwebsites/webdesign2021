@@ -1,5 +1,7 @@
 body {
   font-family: 'Heebo', sans-serif;
+  line-height: 1.5;
+  margin: 0;
 }
 h1 {
   color: #A9846D;
@@ -12,23 +14,48 @@ h2 {
 }
 ol {
 }
+li {
+  margin-bottom: 7px;
+}
 img {
   max-width: 100%;
 }
-
+ul {
+  list-style-type: circle
+}
+a {
+  color: #1c52ad;
+}
 .container {
   max-width: 800px;
   margin: auto;
-}
-ul {
-  list-style-type: circle
 }
 
 .alignleft {
   float: left;
   max-width: 40%;
+  margin-right: 20px;
 }
 
 .clear {
   clear: both;
+}
+
+.cta {
+  background: beige;
+  padding: 40px;
+  font-size: 21px;
+  overflow: hidden;
+  margin-top: 56px;
+}
+
+.cta .alignleft {
+  width: 200px;
+}
+.button {
+  background: #1c52ad;  
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
 }
