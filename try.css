@@ -10,7 +10,7 @@ h1 {
 }
 h2 {
   font-weight: 400;
-  color: #4A5364;
+  color: #4c7ba5;
 }
 ol {
 }
@@ -24,7 +24,7 @@ ul {
   list-style-type: circle
 }
 a {
-  color: #1c52ad;
+  color: #4c7ba5;
 }
 .container {
   max-width: 800px;
@@ -53,9 +53,50 @@ a {
   width: 200px;
 }
 .button {
-  background: #1c52ad;  
+  background: #4c7ba5;  
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   display: inline-block;
+}
+
+.newsletter {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/wesual-click-rsWZ-P9FbQ4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 10px 60px;
+  font-size: 21px;
+  text-align: center;
+}
+.newsletter h2 {
+  color: #fff;
+}
+button, input, textarea {
+  font: inherit;
+  color: inherit;
+}
+.newsletter input {
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+.newsletter input[type="email"]{
+  width: 300px;
+}
+.newsletter input:focus {
+  outline: 0;
+  background: rgba(0,0,0,0.5);
+}
+.newsletter .button {
+  padding: 5px 30px;
+
+  display: block;
+  margin: 30px auto;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.newsletter .button:hover {
+  color: #4c7ba5;
+  background: #fff;
 }
