@@ -12,7 +12,7 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 980px;
   margin: auto;
 }
 .home-banner .container {
@@ -22,6 +22,7 @@ img {
 }
 .home-banner img {
   display: block;
+  margin-top: 20px;
 }
 h1 {
   font-size: 40px;
@@ -35,4 +36,16 @@ h1 {
   display: inline-block;
   font-size: 18px;
   margin-top: 20px;
+}
+.gallery {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.gallery img {
+  display: block;
 }
